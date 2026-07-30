@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FAKECC S.A.C. - Consultoría, construcción e inversiones. Obras civiles, viales, saneamiento, edificaciones y supervisión de proyectos en Lima y todo el Perú.">
+    <meta name="keywords" content="construcción, consultoría, obras civiles, obras viales, saneamiento, edificaciones, Puente Piedra, Lima, Perú">
+    <meta name="author" content="Consultoría, Constructora e Inversiones FAKECC S.A.C.">
+    <title>FAKECC | Constructora, Consultoría e Inversiones</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER + NAVEGACIÓN -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="images/logo.png" alt="Logo FAKECC" class="logo__img" onerror="this.style.display='none'">
+                <div class="logo__block">
+                    <span class="logo__text">FAKECC</span>
+                    <span class="logo__sub">Constructora · Consultoría e Inversiones S.A.C.</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav__menu" id="navMenu">
+                    <li><a href="#inicio" class="nav__link" data-scroll>Inicio</a></li>
+                    <li><a href="#nosotros" class="nav__link" data-scroll>Nosotros</a></li>
+                    <li><a href="#servicios" class="nav__link" data-scroll>Servicios</a></li>
+                    <li><a href="#proyectos" class="nav__link" data-scroll>Proyectos</a></li>
+                    <li><a href="#registros" class="nav__link" data-scroll>Registros</a></li>
+                    <li><a href="#contacto" class="nav__link" data-scroll>Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SLIDER HERO -->
+    <section class="hero" id="inicio">
+        <div class="slider" id="sliderContainer">
+            <div class="slider__item active" style="background-image: url('images/hero_1.jpg')">
+                <div class="slider__overlay"></div>
+                <div class="slider__content">
+                    <span class="slider__eyebrow">Consultoría · Constructora · Inversiones</span>
+                    <h1>FAKECC</h1>
+                    <p>Construyendo el futuro de la inversión</p>
+                    <div class="slider__buttons">
+                        <a href="#proyectos" class="btn btn--primary">Descubre Nuestro Portafolio</a>
+                        <a href="#contacto" class="btn btn--secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item" style="background-image: url('images/hero_2.jpg')">
+                <div class="slider__overlay"></div>
+                <div class="slider__content">
+                    <span class="slider__eyebrow">Ingeniería civil desde 2014</span>
+                    <h1>Construcción Integral</h1>
+                    <p>Obras viales, edificaciones, saneamiento y sistemas hidráulicos</p>
+                    <div class="slider__buttons">
+                        <a href="#servicios" class="btn btn--primary">Nuestros Servicios</a>
+                        <a href="#proyectos" class="btn btn--secondary">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item" style="background-image: url('images/hero_3.jpg')">
+                <div class="slider__overlay"></div>
+                <div class="slider__content">
+                    <span class="slider__eyebrow">Registro Nacional de Proveedores</span>
+                    <h1>Consultoría y Supervisión</h1>
+                    <p>Ejecutor y consultor de obras acreditado ante el Estado Peruano</p>
+                    <div class="slider__buttons">
+                        <a href="#registros" class="btn btn--primary">Ver Acreditaciones</a>
+                        <a href="#contacto" class="btn btn--secondary">Solicitar Cotización</a>
+                    </div>
+                </div>
+            </div>
+            <button class="slider__nav slider__nav--prev" id="sliderPrev" aria-label="Anterior">❮</button>
+            <button class="slider__nav slider__nav--next" id="sliderNext" aria-label="Siguiente">❯</button>
+            <div class="slider__dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stats__item">
+                    <div class="stats__number">10+</div>
+                    <div class="stats__label">Años de Experiencia</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__number">S/ 900 Mil</div>
+                    <div class="stats__label">Capacidad de Contratación</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__number">5</div>
+                    <div class="stats__label">Especialidades Categoría A</div>
+                </div>
+                <div class="stats__item">
+                    <div class="stats__number">N° 83613</div>
+                    <div class="stats__label">Registro Nacional de Proveedores</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <h2 class="section__title">Quiénes Somos</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Consultoría, Constructora e Inversiones FAKECC S.A.C. es una empresa especializada en construcciones y ejecuciones de obras civiles en general, instalaciones de proyectos eléctricos e hidroeléctricos, supervisión de construcciones y servicios de ingeniería civil y conexos.</p>
+                    <p>Desde su fundación en 2014, hemos ejecutado una gran variedad de proyectos para la empresa privada y organismos públicos, garantizando siempre alta calidad en la ejecución y absoluta seriedad en el cumplimiento de los plazos pautados.</p>
+                    <button class="btn btn--outline" id="btnNosotros">Conoce Más</button>
+                </div>
+                <div class="about__image">
+                    [AGREGAR FOTO - Equipo FAKECC]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL: TABS NOSOTROS -->
+    <div class="modal" id="modalNosotros">
+        <div class="modal__content">
+            <button class="modal__close" id="closeModal">&times;</button>
+            <div class="modal__tabs">
+                <div class="modal__tab-buttons">
+                    <button class="modal__tab-btn active" data-tab="presentacion">Presentación</button>
+                    <button class="modal__tab-btn" data-tab="mision">Misión</button>
+                    <button class="modal__tab-btn" data-tab="vision">Visión</button>
+                    <button class="modal__tab-btn" data-tab="datos">Datos de la Empresa</button>
+                    <button class="modal__tab-btn" data-tab="rnp">Registros RNP</button>
+                </div>
+                <div class="modal__tab-content">
+                    <div class="modal__tab-pane active" id="presentacion">
+                        <h3>Presentación</h3>
+                        <p>FAKECC S.A.C. se dedica a mantener los mejores estándares de calidad requeridos en la construcción de caminos, instalaciones eléctricas, proyectos agroindustriales y agropecuarios, así como asesoría interna y externa a entidades públicas y privadas.</p>
+                        <p>Ejecutamos obras en los sectores vial, edificaciones, salud, educación y deportes, energía y minas, electrificación, agricultura, saneamiento, canales, obras hidráulicas, terminales y ornato público (parques, jardines, pistas y veredas).</p>
+                    </div>
+                    <div class="modal__tab-pane" id="mision">
+                        <h3>Misión</h3>
+                        <p>Somos una empresa constructora comprometida con el medio ambiente, encargada de brindar servicios de ingeniería, construcción, saneamiento físico legal y tasaciones, desenvolviéndonos tanto en el ámbito público como privado. Nuestra misión es satisfacer las necesidades de nuestros clientes antes, durante y después de finalizar el proyecto, dando cumplimiento a los estándares de calidad, costos y plazos fijados, respetando la legislación laboral, técnica, medioambiental y social.</p>
+                    </div>
+                    <div class="modal__tab-pane" id="vision">
+                        <h3>Visión</h3>
+                        <p>Afianzarnos como una empresa constructora líder a nivel nacional con proyección internacional en servicios de ingeniería, construcción y mantenimiento; sustentada en la responsabilidad, eficiencia e innovación en la mejora continua de nuestros procesos, así como la eficiente gestión del capital humano y el respeto a las normas para la conservación del medio ambiente, con la finalidad de brindar servicios de calidad a nuestros clientes.</p>
+                    </div>
+                    <div class="modal__tab-pane" id="datos">
+                        <h3>Datos de la Empresa</h3>
+                        <ul class="datos__list">
+                            <li><strong>Razón Social:</strong> Consultoría, Constructora e Inversiones FAKECC S.A.C.</li>
+                            <li><strong>Nombre Comercial:</strong> FAKECC S.A.C.</li>
+                            <li><strong>RUC:</strong> 20487063399</li>
+                            <li><strong>Inicio de Actividades:</strong> Junio de 2014</li>
+                            <li><strong>Representante Legal:</strong> Wilder David Cano Suárez</li>
+                            <li><strong>Capacidad Máxima de Contratación:</strong> S/ 900,000.00 (Novecientos Mil y 00/100)</li>
+                            <li><strong>Domicilio:</strong> Asoc. Santísima Cruz de Motupe Mz. J Lt. 20, Puente Piedra, Lima</li>
+                        </ul>
+                    </div>
+                    <div class="modal__tab-pane" id="rnp">
+                        <h3>Registro Nacional de Proveedores</h3>
+                        <p>Contamos con inscripción vigente ante el OSCE en los siguientes registros:</p>
+                        <ul class="rnp__list">
+                            <li><strong>Ejecutor de Obras</strong> — RNP N° 83613</li>
+                            <li><strong>Consultor de Obras</strong> — 5 especialidades, todas Categoría A: obras urbanas y edificaciones; obras viales, puertos y afines; saneamiento; electromecánicas, energéticas y telecomunicaciones; represas e irrigaciones</li>
+                            <li><strong>Proveedor de Bienes</strong></li>
+                            <li><strong>Proveedor de Servicios</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section__title">Nuestros Servicios</h2>
+            <div class="services__grid">
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-road"></i></div>
+                    <h3>Obras Viales y Puentes</h3>
+                    <p>Construcción de carreteras con pavimento rígido y flexible, apertura de trochas, rehabilitación y mantenimiento de vías, y puentes de todo tipo.</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-building"></i></div>
+                    <h3>Edificaciones</h3>
+                    <p>Centros educativos, hospitales, albergues, centros recreativos, edificios multifamiliares y obras de edificación en general.</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-faucet-drip"></i></div>
+                    <h3>Obras de Saneamiento</h3>
+                    <p>Sistemas de abastecimiento de agua, reservorios, redes de alcantarillado urbano y rural, plantas de tratamiento y drenaje.</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-water"></i></div>
+                    <h3>Sistemas de Riego e Hidráulicas</h3>
+                    <p>Canales abiertos y cerrados, embalses, bocatomas, pozos, riego por aspersión e instalación de sistemas de bombeo.</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Electrificación y Energía</h3>
+                    <p>Instalaciones eléctricas, proyectos hidroeléctricos y obras de energía y minas con los más altos estándares técnicos.</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Consultoría y Supervisión</h3>
+                    <p>Perfiles, expedientes técnicos, supervisiones, liquidaciones técnicas y financieras, saneamiento físico legal y trabajos topográficos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <h2 class="section__title">Nuestros Proyectos</h2>
+            <div class="projects__grid" id="projectsGrid">
+                <!-- Se carga dinámicamente desde projects.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- REGISTROS Y ACREDITACIONES -->
+    <section class="certifications" id="registros">
+        <div class="container">
+            <h2 class="section__title">Registros y Acreditaciones</h2>
+            <div class="certs__grid">
+                <div class="cert__item">
+                    <div class="cert__icon"><i class="fas fa-helmet-safety"></i></div>
+                    <h3>Ejecutor de Obras</h3>
+                    <p>RNP N° 83613 — Inscripción vigente ante el OSCE</p>
+                    <a href="docs/CONSTANCIA_RNP_FAKECC.pdf" target="_blank" class="btn btn--small">Ver Constancia</a>
+                </div>
+                <div class="cert__item">
+                    <div class="cert__icon"><i class="fas fa-compass-drafting"></i></div>
+                    <h3>Consultor de Obras</h3>
+                    <p>5 especialidades acreditadas, todas en Categoría A</p>
+                    <a href="docs/CONSTANCIA_RNP_FAKECC.pdf" target="_blank" class="btn btn--small">Ver Constancia</a>
+                </div>
+                <div class="cert__item">
+                    <div class="cert__icon"><i class="fas fa-boxes-stacked"></i></div>
+                    <h3>Proveedor de Bienes</h3>
+                    <p>Suministro de materiales de construcción y agregados</p>
+                    <a href="docs/CONSTANCIA_RNP_FAKECC.pdf" target="_blank" class="btn btn--small">Ver Constancia</a>
+                </div>
+                <div class="cert__item">
+                    <div class="cert__icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Proveedor de Servicios</h3>
+                    <p>Asesoría a instituciones públicas y privadas, alquiler de maquinaria</p>
+                    <a href="docs/CONSTANCIA_RNP_FAKECC.pdf" target="_blank" class="btn btn--small">Ver Constancia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO CONTACTO -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section__title">Contacto y Ubicación</h2>
+            <div class="contact__grid">
+                <div class="contact__form">
+                    <h3>Envíanos tu Consulta</h3>
+                    <form id="contactForm" class="form">
+                        <input type="text" name="nombre" placeholder="Tu Nombre" required class="form__input">
+                        <input type="email" name="email" placeholder="Tu Email" required class="form__input">
+                        <input type="tel" name="telefono" placeholder="Tu Teléfono" class="form__input">
+                        <select name="rubro" class="form__input">
+                            <option value="">Selecciona un Rubro de Interés</option>
+                            <option value="viales">Obras Viales y Puentes</option>
+                            <option value="edificaciones">Edificaciones</option>
+                            <option value="saneamiento">Obras de Saneamiento</option>
+                            <option value="riego">Sistemas de Riego e Hidráulicas</option>
+                            <option value="energia">Electrificación y Energía</option>
+                            <option value="consultoria">Consultoría y Supervisión</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required class="form__input"></textarea>
+                        <button type="submit" class="btn btn--primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contact__info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info__item">
+                        <strong>Teléfono:</strong>
+                        <a href="tel:912071787">912 071 787</a>
+                    </div>
+                    <div class="info__item">
+                        <strong>WhatsApp:</strong>
+                        <a href="https://wa.me/51912071787" target="_blank">+51 912 071 787</a>
+                    </div>
+                    <div class="info__item">
+                        <strong>Email:</strong>
+                        <a href="mailto:canoespinoza17@outlook.com">canoespinoza17@outlook.com</a>
+                    </div>
+                    <div class="info__item">
+                        <strong>Dirección:</strong>
+                        <p>Asoc. Santísima Cruz de Motupe Mz. J Lt. 20, Puente Piedra, Lima</p>
+                    </div>
+                    <div class="info__item">
+                        <strong>Horario:</strong>
+                        <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map__container">
+                <!-- REEMPLAZAR: genera tu iframe real en Google Maps > Compartir > Insertar mapa -->
+                <iframe src="https://www.google.com/maps?q=Asoc.+Santisima+Cruz+de+Motupe+Mz+J+Lt+20,+Puente+Piedra,+Lima&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4>Sobre FAKECC</h4>
+                    <p>Consultoría, Constructora e Inversiones FAKECC S.A.C. Empresa de ingeniería y construcción acreditada ante el Registro Nacional de Proveedores.</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#registros">Registros</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Contáctanos</h4>
+                    <ul>
+                        <li><a href="tel:912071787">Tel: 912 071 787</a></li>
+                        <li><a href="https://wa.me/51912071787" target="_blank">WhatsApp</a></li>
+                        <li><a href="mailto:canoespinoza17@outlook.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Síguenos</h4>
+                    <div class="social__links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Consultoría, Constructora e Inversiones FAKECC S.A.C. | RUC: 20487063399 | Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/51912071787?text=Hola,%20solicito%20información%20sobre%20servicios%20de%20construcción%20y%20consultoría" class="whatsapp__btn" target="_blank" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- SCRIPTS -->
+    <script src="js/config.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
