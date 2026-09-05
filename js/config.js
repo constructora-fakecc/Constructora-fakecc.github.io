@@ -113,7 +113,7 @@ const CONFIG = {
             descripcion: 'Renovación vial integral que abarca la rehabilitación del pavimento asfáltico y la implementación de señalización de tráfico vertical y horizontal. La obra permite entregar a la comunidad una infraestructura vial totalmente optimizada, ordenada y segura para el tránsito vehicular y peatonal.',
             rubro: 'Obras Viales',
             monto: 'S/ 244,816.72 inc IGV',
-            image: 'images/jazmines',
+            image: 'images/jazmines.jpg',
             galeria: ['jazmines_1.jpg','jazmines_2.jpg','jazmines_3.jpg','jazmines_4.jpg','jazmines_5.jpg']
         }
     ],
