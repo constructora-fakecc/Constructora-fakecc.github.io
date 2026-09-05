@@ -91,26 +91,30 @@ const CONFIG = {
             // Cuando subas fotos: image: 'images/parque-justicia-1.jpg', galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
         },
         {
-            id: 'proy_02_placeholder',
-            nombre: '[EDITAR] Nombre del Proyecto 2',
-            cliente: '[EDITAR] Nombre del Cliente',
-            ubicacion: '[EDITAR] Ubicación exacta de la obra',
-            ano: 2024,
-            descripcion: '[EDITAR] Descripción breve de la obra en 2-3 líneas.',
-            rubro: 'Saneamiento',
-            monto: 'S/ 0.00',
-            image: '[AGREGAR FOTO]'
+            id: 'proy_02_calle17',
+            nombre: 'RENOVACION DE PAVIMENTO, VEREDA Y SARDINEL; CONSTRUCCION DE RAMPA; ADEMAS DE OTROS ACTIVOS EN EL (LA) CALLE 17 DEL A.H. CHILLON Y URB. PROLIMA DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'Lima,Lima,Los Olivos',
+            ano: 2026,
+            descripcion: 'Renovación vial integral que abarca la reconstrucción de pistas, veredas, sardineles y la construcción de rampas de accesibilidad urbana. La obra permite entregar una infraestructura vehicular y peatonal optimizada, segura y totalmente accesible para el libre tránsito de la comunidad.',
+            rubro: 'Obras Viales',
+            monto: 'S/. 185,354.87 inc IGV',
+            image: 'images/calle_17.jpg',
+            galeria: ['calle_17_1.jpg','calle_17_2.jpg','calle_17_3.jpg','calle_17_4.jpg','calle_17_5.jpg']
+            
+            
         },
         {
-            id: 'proy_03_placeholder',
-            nombre: '[EDITAR] Nombre del Proyecto 3',
-            cliente: '[EDITAR] Nombre del Cliente',
-            ubicacion: '[EDITAR] Ubicación exacta de la obra',
-            ano: 2023,
-            descripcion: '[EDITAR] Descripción breve de la obra en 2-3 líneas.',
-            rubro: 'Edificaciones',
-            monto: 'S/ 0.00',
-            image: '[AGREGAR FOTO]'
+            id: 'proy_03_jazmines',
+            nombre: 'RENOVACION DE PAVIMENTO Y SEÑALES DE TRÁFICO; EN EL (LA) CALLE LOS JAZMINES, TRAMO DESDE LA CALLE AQUIA HASTA LA AV. UNIVERSITARIA DEL AA.HH. LOS JAZMINES DEL NARANJAL, SECTOR 1 DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Renovación vial integral que abarca la rehabilitación del pavimento asfáltico y la implementación de señalización de tráfico vertical y horizontal. La obra permite entregar a la comunidad una infraestructura vial totalmente optimizada, ordenada y segura para el tránsito vehicular y peatonal.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 244,816.72 inc IGV',
+            image: 'images/jazmines',
+            galeria: ['jazmines_1.jpg','jazmines_2.jpg','jazmines_3.jpg','jazmines_4.jpg','jazmines_5.jpg']
         }
     ],
 
