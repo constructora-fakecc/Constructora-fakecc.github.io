@@ -86,7 +86,7 @@ const CONFIG = {
             descripcion: 'Mejoramiento integral del Parque N° 02 (Justicia) a cargo del Consorcio Mompy, que abarca la renovación de pisos y caminerías, instalación de iluminación LED, áreas verdes, juegos infantiles y mobiliario urbano. La obra permite entregar a los vecinos de Los Jazmines del Naranjal un espacio público moderno, seguro y accesible para el esparcimiento familiar.',
             rubro: 'Obras Viales',
             monto: 'S/ 1,020,961.74 inc IGV',
-            image: 'images/justicia_1.jpg'
+            image: 'images/justicia_1.jpg',
             galeria: ['justicia_3.jpg','justicia_4.jpg','justicia_5.jpg','justicia_6.jpg','justicia_7.jpg']
             // Cuando subas fotos: image: 'images/parque-justicia-1.jpg', galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
         },
