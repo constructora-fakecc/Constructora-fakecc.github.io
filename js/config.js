@@ -69,9 +69,16 @@ const CONFIG = {
     // PROYECTOS - ARRAY EDITABLE PARA AGREGAR MÁS
     // Estructura: {nombre, cliente, ubicacion, ano, descripcion, rubro, monto, image}
     // Los siguientes son PLANTILLAS DE EJEMPLO: edita los datos con tus obras reales
+    // NOTA GALERÍA: cada proyecto tiene un "id" único para poder abrir su
+    // galería de fotos ampliada (modal). Cuando tengas las fotos reales de
+    // un proyecto, súbelas a /images/ y agrega el arreglo "galeria" con los
+    // nombres de archivo (sin el prefijo "images/", eso lo agrega main.js).
+    // Ejemplo:
+    //   galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
+    // Un proyecto SIN "galeria" (o con arreglo vacío) simplemente no abre modal.
     projects: [
         {
-            id: 'proy_01_parque_justicia'
+            id: 'proy_01_parque_justicia',
             nombre: 'MEJORAMIENTO DEL SERVICIO DE ESPACIOS PÚBLICOS URBANOS EN EL PARQUE N° 02 (JUSTICIA) DEL AA.HH. LOS JAZMINES DEL NARANJAL DEL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
             cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
             ubicacion: 'Lima,Lima,Los Olivos',
@@ -80,11 +87,10 @@ const CONFIG = {
             rubro: 'Obras Viales',
             monto: 'S/ S/. 1,020,961.74 inc IGV',
             image: '[AGREGAR FOTO]'
-            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg']  // ← nuevo, sin prefijo images/
-
+            // Cuando subas fotos: image: 'images/parque-justicia-1.jpg', galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
         },
         {
-            id: 'proy_02_parque_justicia'
+            id: 'proy_02_placeholder',
             nombre: '[EDITAR] Nombre del Proyecto 2',
             cliente: '[EDITAR] Nombre del Cliente',
             ubicacion: '[EDITAR] Ubicación exacta de la obra',
@@ -93,10 +99,9 @@ const CONFIG = {
             rubro: 'Saneamiento',
             monto: 'S/ 0.00',
             image: '[AGREGAR FOTO]'
-            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg'] 
         },
         {
-            id: 'proy_03_parque_justicia'
+            id: 'proy_03_placeholder',
             nombre: '[EDITAR] Nombre del Proyecto 3',
             cliente: '[EDITAR] Nombre del Cliente',
             ubicacion: '[EDITAR] Ubicación exacta de la obra',
@@ -105,7 +110,6 @@ const CONFIG = {
             rubro: 'Edificaciones',
             monto: 'S/ 0.00',
             image: '[AGREGAR FOTO]'
-            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg'] 
         }
     ],
 

@@ -63,16 +63,17 @@ function renderProjects() {
  */
 function createProjectCard(project, index) {
     const card = document.createElement('div');
-    card.className = 'project__card' + (project.galeria && project.galeria.length > 0 ? ' project__card--galeria' : '');
+    const tieneGaleria = project.galeria && project.galeria.length > 0;
+    card.className = 'project__card' + (tieneGaleria ? ' project__card--galeria' : '');
     card.style.animationDelay = `${index * 0.1}s`;
-    
-    const onclickGaleria = project.galeria && project.galeria.length > 0
+
+    // Si el proyecto tiene galería, la imagen y el título abren el modal ampliado
+    const onclickGaleria = tieneGaleria
         ? `onclick="abrirGaleria('${project.id}', '${project.nombre.replace(/'/g, "\\'")}')" style="cursor: pointer;"`
         : '';
 
-
     const imageHtml = project.image && !project.image.includes('AGREGAR')
-        ? `<img src="${project.image}" alt="${project.nombre}" loading="lazy">`
+        ? `<img src="${project.image}" alt="${project.nombre}" loading="lazy" ${onclickGaleria}>`
         : `<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #999; font-style: italic;">${project.image || '[AGREGAR FOTO]'}</div>`;
 
     const montoHtml = project.monto && !project.monto.includes('0.00')
@@ -84,7 +85,7 @@ function createProjectCard(project, index) {
             ${imageHtml}
         </div>
         <div class="project__content">
-            <div class="project__title">${project.nombre}</div>
+            <div class="project__title" ${tieneGaleria ? `onclick="abrirGaleria('${project.id}', '${project.nombre.replace(/'/g, "\\'")}')" style="cursor: pointer;"` : ''}>${project.nombre}</div>
             <div class="project__meta">
                 <strong>Cliente:</strong> ${project.cliente}<br>
                 <strong>Ubicación:</strong> ${project.ubicacion}<br>
