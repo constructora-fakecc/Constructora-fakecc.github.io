@@ -63,8 +63,13 @@ function renderProjects() {
  */
 function createProjectCard(project, index) {
     const card = document.createElement('div');
-    card.className = 'project__card';
+    card.className = 'project__card' + (project.galeria && project.galeria.length > 0 ? ' project__card--galeria' : '');
     card.style.animationDelay = `${index * 0.1}s`;
+    
+    const onclickGaleria = project.galeria && project.galeria.length > 0
+        ? `onclick="abrirGaleria('${project.id}', '${project.nombre.replace(/'/g, "\\'")}')" style="cursor: pointer;"`
+        : '';
+
 
     const imageHtml = project.image && !project.image.includes('AGREGAR')
         ? `<img src="${project.image}" alt="${project.nombre}" loading="lazy">`

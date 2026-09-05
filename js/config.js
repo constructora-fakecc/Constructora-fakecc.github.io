@@ -71,16 +71,20 @@ const CONFIG = {
     // Los siguientes son PLANTILLAS DE EJEMPLO: edita los datos con tus obras reales
     projects: [
         {
-            nombre: '[EDITAR] Nombre del Proyecto 1',
-            cliente: '[EDITAR] Nombre del Cliente',
-            ubicacion: '[EDITAR] Ubicación exacta de la obra',
-            ano: 2025,
-            descripcion: '[EDITAR] Descripción breve de la obra en 2-3 líneas: alcance, metrados principales y resultado.',
+            id: 'proy_01_parque_justicia'
+            nombre: 'MEJORAMIENTO DEL SERVICIO DE ESPACIOS PÚBLICOS URBANOS EN EL PARQUE N° 02 (JUSTICIA) DEL AA.HH. LOS JAZMINES DEL NARANJAL DEL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'Lima,Lima,Los Olivos',
+            ano: 2026,
+            descripcion: 'Mejoramiento integral del Parque N° 02 (Justicia) a cargo del Consorcio Mompy, que abarca la renovación de pisos y caminerías, instalación de iluminación LED, áreas verdes, juegos infantiles y mobiliario urbano. La obra permite entregar a los vecinos de Los Jazmines del Naranjal un espacio público moderno, seguro y accesible para el esparcimiento familiar.',
             rubro: 'Obras Viales',
-            monto: 'S/ 0.00',
+            monto: 'S/ S/. 1,020,961.74 inc IGV',
             image: '[AGREGAR FOTO]'
+            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg']  // ← nuevo, sin prefijo images/
+
         },
         {
+            id: 'proy_02_parque_justicia'
             nombre: '[EDITAR] Nombre del Proyecto 2',
             cliente: '[EDITAR] Nombre del Cliente',
             ubicacion: '[EDITAR] Ubicación exacta de la obra',
@@ -89,8 +93,10 @@ const CONFIG = {
             rubro: 'Saneamiento',
             monto: 'S/ 0.00',
             image: '[AGREGAR FOTO]'
+            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg'] 
         },
         {
+            id: 'proy_03_parque_justicia'
             nombre: '[EDITAR] Nombre del Proyecto 3',
             cliente: '[EDITAR] Nombre del Cliente',
             ubicacion: '[EDITAR] Ubicación exacta de la obra',
@@ -99,6 +105,7 @@ const CONFIG = {
             rubro: 'Edificaciones',
             monto: 'S/ 0.00',
             image: '[AGREGAR FOTO]'
+            galeria: ['parque_justicia_1.jpg', 'parque_justicia_2.jpg'] 
         }
     ],
 
