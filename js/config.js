@@ -87,7 +87,7 @@ const CONFIG = {
             rubro: 'Obras Viales',
             monto: 'S/ 1,020,961.74 inc IGV',
             image: 'images/justicia_1.jpg',
-            galeria: ['justicia_3.jpg','justicia_4.jpg','justicia_5.jpg','justicia_6.jpg','justicia_7.jpg']
+            galeria: ['justicia_3.jpg','justicia_4.jpg','justicia_5.jpg','justicia_6.jpg','justicia_7.jpg','justicia_1.jpg']
             // Cuando subas fotos: image: 'images/parque-justicia-1.jpg', galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
         },
         {
@@ -100,7 +100,7 @@ const CONFIG = {
             rubro: 'Obras Viales',
             monto: 'S/. 185,354.87 inc IGV',
             image: 'images/calle_17.jpg',
-            galeria: ['calle_17_1.jpg','calle_17_2.jpg','calle_17_3.jpg','calle_17_4.jpg','calle_17_5.jpg']
+            galeria: ['calle_17_1.jpg','calle_17_2.jpg','calle_17_3.jpg','calle_17_4.jpg','calle_17_5.jpg','calle_17.jpg']
             
             
         },
@@ -114,8 +114,45 @@ const CONFIG = {
             rubro: 'Obras Viales',
             monto: 'S/ 244,816.72 inc IGV',
             image: 'images/jazmines.jpg',
-            galeria: ['jazmines_1.jpg','jazmines_2.jpg','jazmines_3.jpg','jazmines_4.jpg','jazmines_5.jpg']
-        }
+            galeria: ['jazmines_1.jpg','jazmines_2.jpg','jazmines_3.jpg','jazmines_4.jpg','jazmines_5.jpg','jazmines.jpg']
+        },
+        {
+            id: 'proy_04_chillon',
+            nombre: 'MEJORAMIENTO DEL SERVICIO DE MOVILIDAD URBANA EN LAS CALLES INTERNAS DEL AA.HH. MUNICIPAL CHILLON DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Proyecto centrado en la rehabilitación y optimización de las vías internas, con el objetivo de garantizar un tránsito seguro, ordenado y eficiente. A través de la intervención en la infraestructura vial, se busca reducir los tiempos de desplazamiento, facilitar el acceso a servicios esenciales y elevar la calidad de vida de los residentes de la zona.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 69 549.94 inc IGV',
+            image: 'images/chillon_6.jpg',
+            galeria: ['chillon_1.jpg','chillon_2.jpg','chillon_3.jpg','chillon_4.jpg','chillon_5.jpg','chillon_6.jpg']
+        },
+        {
+            id: 'proy_05_beta',
+            nombre: 'MEJORAMIENTO DEL SERVICIO DE MOVILIDAD URBANA EN LA AV. ROMULO BETANCOURT DESDE LA AV. CANTA CALLAO HASTA LA AV. CENTRAL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Proyecto centrado en la rehabilitación y optimización de las vías internas, con el objetivo de garantizar un tránsito seguro, ordenado y eficiente. A través de la intervención en la infraestructura vial, se busca reducir los tiempos de desplazamiento, facilitar el acceso a servicios esenciales y elevar la calidad de vida de los residentes de la zona.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 696,961.52 inc IGV',
+            image: 'images/beta.jpg',
+            galeria: ['beta_1.jpg','beta_2.jpg','beta_3.jpg','beta_4.jpg','beta_5.jpg','beta_6.jpg','beta_7.jpg','beta.jpg']
+        },
+        {
+            id: 'proy_06_rosales3',
+            nombre: 'CONSTRUCCION DE VEREDA; EN EL(LA) LAS CALLES INTERNAS DEL A.H. ROSALES DE PRO DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA-3ERA ETAPA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Construcción de veredas en calles internas (III etapa) para dotar a la zona de infraestructura peatonal segura y durable. La intervención busca reducir riesgos de accidentes, mejorar el orden urbano y elevar la calidad de vida de los residentes.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 145,030.39 inc IGV',
+            image: 'images/rosales3.jpg',
+            galeria: ['rosales3_1.jpg','rosales3_2.jpg','rosales3_3.jpg','rosales3_4.jpg','rosales3_5.jpg','rosales3_6.jpg','rosales3_7.jpg','rosales3.jpg']
+        },
+
     ],
 
     // SERVICIOS
