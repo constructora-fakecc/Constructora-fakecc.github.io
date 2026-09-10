@@ -78,29 +78,29 @@ const CONFIG = {
     // Un proyecto SIN "galeria" (o con arreglo vacío) simplemente no abre modal.
     projects: [
         {
-            id: 'proy_01_parque_justicia',
-            nombre: 'MEJORAMIENTO DEL SERVICIO DE ESPACIOS PÚBLICOS URBANOS EN EL PARQUE N° 02 (JUSTICIA) DEL AA.HH. LOS JAZMINES DEL NARANJAL DEL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
+            id: 'proy_01_calles54',
+            nombre: 'RENOVACION DE PAVIMENTO Y SEÑALES DE TRÁFICO; EN EL{LA) CALLES 54, 55, 58, JIRONES LA AMISTAD, VERACIDAD, PROLONGACION AQUIA, LOS OLIVOS, LOS CLAVELES, MALVAS, JOSE SANTOS CHOCANO, AMARANTOS, EL AMARGON, SANTA CRUZ DE PACHACUTEC, MANUEL GONZALES PRADA, VENUS, CARLOS AUGUSTO SALAVERRY DEL DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
             cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
             ubicacion: 'Lima,Lima,Los Olivos',
-            ano: 2026,
-            descripcion: 'Mejoramiento integral del Parque N° 02 (Justicia) a cargo del Consorcio Mompy, que abarca la renovación de pisos y caminerías, instalación de iluminación LED, áreas verdes, juegos infantiles y mobiliario urbano. La obra permite entregar a los vecinos de Los Jazmines del Naranjal un espacio público moderno, seguro y accesible para el esparcimiento familiar.',
+            ano: 2025,
+            descripcion: 'Renovación integral de pavimento y señalización de tránsito, orientada a optimizar las condiciones de la infraestructura vial.',
             rubro: 'Obras Viales',
-            monto: 'S/ 1,020,961.74 inc IGV',
-            image: 'images/justicia_1.jpg',
-            galeria: ['justicia_3.jpg','justicia_4.jpg','justicia_5.jpg','justicia_6.jpg','justicia_7.jpg','justicia_1.jpg']
+            monto: 'S/ /3,865,225.87 inc IGV',
+            image: 'images/calles54_1.jpg',
+            galeria: ['calles54_1.jpg','calles54_2.jpg','calles54_3.jpg','calles54_4.jpg','calles54_5.jpg','calles54_6.jpg','calles54_7.jpg','calles54_8.jpg']
             // Cuando subas fotos: image: 'images/parque-justicia-1.jpg', galeria: ['parque-justicia-1.jpg', 'parque-justicia-2.jpg']
         },
         {
-            id: 'proy_02_calle17',
-            nombre: 'RENOVACION DE PAVIMENTO, VEREDA Y SARDINEL; CONSTRUCCION DE RAMPA; ADEMAS DE OTROS ACTIVOS EN EL (LA) CALLE 17 DEL A.H. CHILLON Y URB. PROLIMA DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
+            id: 'proy_02_rosa',
+            nombre: 'CONSTRUCCION DE ESPACIO DE CIRCULACION PEATONAL HORIZONTAL Y/O VERTICAL Y MURO DE CONTENCION; EN EL (LA) CALLE LOS ROSALES Y LOS GIRASOLES DEL AA.HH .MERCURIO ALTO DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
             cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
             ubicacion: 'Lima,Lima,Los Olivos',
-            ano: 2026,
-            descripcion: 'Renovación vial integral que abarca la reconstrucción de pistas, veredas, sardineles y la construcción de rampas de accesibilidad urbana. La obra permite entregar una infraestructura vehicular y peatonal optimizada, segura y totalmente accesible para el libre tránsito de la comunidad.',
-            rubro: 'Obras Viales',
-            monto: 'S/. 185,354.87 inc IGV',
-            image: 'images/calle_17.jpg',
-            galeria: ['calle_17_1.jpg','calle_17_2.jpg','calle_17_3.jpg','calle_17_4.jpg','calle_17_5.jpg','calle_17.jpg']
+            ano: 2025,
+            descripcion: 'Ejecución de obras de infraestructura urbana orientadas a habilitar y mejorar la circulación peatonal mediante escaleras y/o rampas, complementadas con la construcción de un muro de contención para garantizar la estabilidad del terreno',
+            rubro: 'Obras Urbanas',
+            monto: 'S/ 124,908.32 inc IGV',
+            image: 'images/rosa.jpg',
+            galeria: ['rosa.jpg','rosa_1.jpg','rosa_2.jpg','rosa_3.jpg','rosa_4.jpg','rosa_5.jpg','rosa.jpg']
             
             
         },
@@ -147,6 +147,18 @@ const CONFIG = {
             ubicacion: 'LOS OLIVOS - LIMA',
             ano: 2026,
             descripcion: 'Construcción de veredas en calles internas (III etapa) para dotar a la zona de infraestructura peatonal segura y durable. La intervención busca reducir riesgos de accidentes, mejorar el orden urbano y elevar la calidad de vida de los residentes.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 145,030.39 inc IGV',
+            image: 'images/rosales3.jpg',
+            galeria: ['rosales3_1.jpg','rosales3_2.jpg','rosales3_3.jpg','rosales3_4.jpg','rosales3_5.jpg','rosales3_6.jpg','rosales3_7.jpg','rosales3.jpg']
+        },
+        {
+            id: 'proy_07_geriatrico',
+            nombre: 'CREACION DEL SERVICIO DE ATENCIÓN Y CUIDADO PARA PERSONAS EN CONDICIÓN DE DISCAPACIDAD EN EL LOCAL GERIATRICO Y DISCAPACIDAD EN EL AA.HH. SANTA ROSA DE NARANJAL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA-SEGUNDO NIVEL',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Creación del servicio de atención y cuidado para personas con discapacidad y adultos mayores (segundo nivel), mediante el acondicionamiento de infraestructura inclusiva y equipamiento especializado en el local designado. El proyecto busca garantizar la accesibilidad, el bienestar integral y una atención de calidad para los usuarios del sector.',
             rubro: 'Obras Viales',
             monto: 'S/ 145,030.39 inc IGV',
             image: 'images/rosales3.jpg',
