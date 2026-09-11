@@ -63,7 +63,13 @@ const CONFIG = {
             titulo: 'Proveedor de Servicios',
             vigenciaDesde: '27/05/2017',
             pdf: 'docs/CONSTANCIA_RNP_FAKECC.pdf'
-        }
+        },
+        BuenasPracticas: {
+            titulo: 'Buenas prácticas',
+            vigenciaDesde: '10/08/2029',
+            pdf: 'docs/BUENAS-PRACTICAS-FAKECC.pdf'
+        },
+
     },
 
     // PROYECTOS - ARRAY EDITABLE PARA AGREGAR MÁS
@@ -105,40 +111,64 @@ const CONFIG = {
             
         },
         {
-            id: 'proy_03_virgen',
-            nombre: 'CONSTRUCCIÓN DE ESPACIO DE CIRCULACIÓN PEATONAL HORIZONTAL Y/O VERTICAL, SARDINEL, MOBILIARIO URBANO Y OBRAS EXTERIORES; EN EL (LA) PARQUE VIRGEN DEL CARMEN DEL A.H SAN ALBERTO DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
+            id: 'proy_03_jazmines',
+            nombre: 'RENOVACION DE PAVIMENTO Y SEÑALES DE TRÁFICO; EN EL (LA) CALLE LOS JAZMINES, TRAMO DESDE LA CALLE AQUIA HASTA LA AV. UNIVERSITARIA DEL AA.HH. LOS JAZMINES DEL NARANJAL, SECTOR 1 DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
             cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
             ubicacion: 'LOS OLIVOS - LIMA',
-            ano: 2025,
-            descripcion: 'Ejecución de obras de infraestructura urbana destinadas a habilitar y mejorar la circulación peatonal mediante escaleras, rampas y sardineles, complementadas con la instalación de mobiliario urbano y obras exteriores.',
-            rubro: 'Obras Urbanas',
-            monto: 'S/ 95,657.31 inc IGV',
-            image: 'images/virgen.jpg',
-            galeria: ['virgen.jpg','virgen_1.jpg','virgen_2.jpg','virgen_3.jpg','virgen_5.jpg','virgen_6.jpg','virgen_7.jpg','virgen_8.jpg','virgen.jpg']
-        },
-        {
-            id: 'proy_04_patrianueva',
-            nombre: 'CREACIÓN DEL SERVICIO DE MOVILIDAD URBANA EN LAS CALLES INTERNAS DEL ASENTAMIENTO HUMANO PATRIA NUEVA, DEL DISTRITO DE LOS OLIVOS, DE LA PROVINCIA DE LIMA, DEL DEPARTAMENTO DE LIMA',
-            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
-            ubicacion: 'LOS OLIVOS - LIMA',
-            ano: 2025,
-            descripcion: 'Ejecución de obras de infraestructura vial y urbana orientadas a implementar y mejorar el servicio de movilidad en las vías internas del ámbito de intervención, optimizando las condiciones de transitabilidad.',
+            ano: 2026,
+            descripcion: 'Renovación vial integral que abarca la rehabilitación del pavimento asfáltico y la implementación de señalización de tráfico vertical y horizontal. La obra permite entregar a la comunidad una infraestructura vial totalmente optimizada, ordenada y segura para el tránsito vehicular y peatonal.',
             rubro: 'Obras Viales',
-            monto: 'S/ 180,607.54 inc IGV',
-            image: 'images/patria.jpg',
-            galeria: ['patria.jpg','patria_1.jpg','patria_2.jpg','patria_3.jpg','patria_4.jpg','patria_5.jpg','patria_6.jpg','patria.jpg']
+            monto: 'S/ 244,816.72 inc IGV',
+            image: 'images/jazmines.jpg',
+            galeria: ['jazmines_1.jpg','jazmines_2.jpg','jazmines_3.jpg','jazmines_4.jpg','jazmines_5.jpg','jazmines.jpg']
         },
         {
-            id: 'proy_05_venus',
-            nombre: 'CONSTRUCCIÓN DE PAVIMENTO, VEREDA, ESPACIO DE CIRCULACIÓN PEATONAL HORIZONTAL Y/O VERTICAL Y MURO DE CONTENCIÓN; ADEMÁS DE OTROS ACTIVOS EN EL(LA) PASAJE A, B Y C DEL A.A.H.H. MORADORES DEL PASAJE VENUS EN EL CENTRO POBLADO LAS PALMERAS, DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA',
+            id: 'proy_04_chillon',
+            nombre: 'MEJORAMIENTO DEL SERVICIO DE MOVILIDAD URBANA EN LAS CALLES INTERNAS DEL AA.HH. MUNICIPAL CHILLON DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
             cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
             ubicacion: 'LOS OLIVOS - LIMA',
-            ano: 2025,
-            descripcion: 'Ejecución de obras de infraestructura urbana destinadas a habilitar y mejorar la circulación peatonal mediante la construcción de pavimento, veredas, escaleras y/o rampas, complementadas con la edificación de un muro de contención y otros activos.',
-            rubro: 'Obras Urbana',
-            monto: 'S/  130,683.05 inc IGV',
-            image: 'images/venus.jpg',
-            galeria: ['venus.jpg','venus_1.jpg','venus_2-1.jpg','venus_2.jpg','venus_3.jpg','venus_4.jpg','venus_5.jpg','venus_6.jpg','venus_8.jpg','venus_9.jpg','venus.jpg']
+            ano: 2026,
+            descripcion: 'Proyecto centrado en la rehabilitación y optimización de las vías internas, con el objetivo de garantizar un tránsito seguro, ordenado y eficiente. A través de la intervención en la infraestructura vial, se busca reducir los tiempos de desplazamiento, facilitar el acceso a servicios esenciales y elevar la calidad de vida de los residentes de la zona.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 69 549.94 inc IGV',
+            image: 'images/chillon_6.jpg',
+            galeria: ['chillon_1.jpg','chillon_2.jpg','chillon_3.jpg','chillon_4.jpg','chillon_5.jpg','chillon_6.jpg']
+        },
+        {
+            id: 'proy_05_beta',
+            nombre: 'MEJORAMIENTO DEL SERVICIO DE MOVILIDAD URBANA EN LA AV. ROMULO BETANCOURT DESDE LA AV. CANTA CALLAO HASTA LA AV. CENTRAL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Proyecto centrado en la rehabilitación y optimización de las vías internas, con el objetivo de garantizar un tránsito seguro, ordenado y eficiente. A través de la intervención en la infraestructura vial, se busca reducir los tiempos de desplazamiento, facilitar el acceso a servicios esenciales y elevar la calidad de vida de los residentes de la zona.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 696,961.52 inc IGV',
+            image: 'images/beta.jpg',
+            galeria: ['beta_1.jpg','beta_2.jpg','beta_3.jpg','beta_4.jpg','beta_5.jpg','beta_6.jpg','beta_7.jpg','beta.jpg']
+        },
+        {
+            id: 'proy_06_rosales3',
+            nombre: 'CONSTRUCCION DE VEREDA; EN EL(LA) LAS CALLES INTERNAS DEL A.H. ROSALES DE PRO DISTRITO DE LOS OLIVOS, PROVINCIA LIMA, DEPARTAMENTO LIMA-3ERA ETAPA',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Construcción de veredas en calles internas (III etapa) para dotar a la zona de infraestructura peatonal segura y durable. La intervención busca reducir riesgos de accidentes, mejorar el orden urbano y elevar la calidad de vida de los residentes.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 145,030.39 inc IGV',
+            image: 'images/rosales3.jpg',
+            galeria: ['rosales3_1.jpg','rosales3_2.jpg','rosales3_3.jpg','rosales3_4.jpg','rosales3_5.jpg','rosales3_6.jpg','rosales3_7.jpg','rosales3.jpg']
+        },
+        {
+            id: 'proy_07_geriatrico',
+            nombre: 'CREACION DEL SERVICIO DE ATENCIÓN Y CUIDADO PARA PERSONAS EN CONDICIÓN DE DISCAPACIDAD EN EL LOCAL GERIATRICO Y DISCAPACIDAD EN EL AA.HH. SANTA ROSA DE NARANJAL DISTRITO DE LOS OLIVOS DE LA PROVINCIA DE LIMA DEL DEPARTAMENTO DE LIMA-SEGUNDO NIVEL',
+            cliente: 'MUNICIPALIDAD DISTRITAL DE LOS OLIVOS',
+            ubicacion: 'LOS OLIVOS - LIMA',
+            ano: 2026,
+            descripcion: 'Creación del servicio de atención y cuidado para personas con discapacidad y adultos mayores (segundo nivel), mediante el acondicionamiento de infraestructura inclusiva y equipamiento especializado en el local designado. El proyecto busca garantizar la accesibilidad, el bienestar integral y una atención de calidad para los usuarios del sector.',
+            rubro: 'Obras Viales',
+            monto: 'S/ 145,030.39 inc IGV',
+            image: 'images/rosales3.jpg',
+            galeria: ['rosales3_1.jpg','rosales3_2.jpg','rosales3_3.jpg','rosales3_4.jpg','rosales3_5.jpg','rosales3_6.jpg','rosales3_7.jpg','rosales3.jpg']
         },
 
     ],
