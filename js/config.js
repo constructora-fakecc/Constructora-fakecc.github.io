@@ -126,7 +126,7 @@ const CONFIG = {
             rubro: 'Obras Viales',
             monto: 'S/ 180,607.54 inc IGV',
             image: 'images/patria.jpg',
-            galeria: ['patria.jpg','patria_1.jpg','patria_2.jpg','patria_3.jpg','patria_4.jpg','patria_5.jpg','patria_6.jpg','patria.jpg']
+            galeria: ['patria.jpg','patria_1.jpg','patria_2.jpg','patria_3.jpg','patria_4.jpg','patria_5.jpg','patria.jpg']
         },
         {
             id: 'proy_05_venus',

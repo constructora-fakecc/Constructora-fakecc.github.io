@@ -1251,7 +1251,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* <--- CAMBIO CLAVE: Muestra la imagen completa sin recortar ni estirar */
+    background-color: var(--silver-light); /* Fondo gris claro para los espacios vacíos */
+    padding: 10px; /* Un pequeño margen interno para que no choque con los bordes */
+    box-sizing: border-box; /* Asegura que el padding no rompa el tamaño */
 }
 
 .modal-galeria__close {
